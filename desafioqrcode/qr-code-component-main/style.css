@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(Outfit-Regular.otf);
+  }
+  body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    font-family: 'Outfit-Regular';
+  }
+  .card{
+    margin: 100px auto 100px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    width: 340px;
+    border-radius: 20px;
+  }
+  .txt{
+    margin-left:20px; ;
+    margin-right: 20px;
+  }
+  #p1{
+    font-size: 20px;
+    color:rgb(32, 32, 107);
+    text-align:center;
+  }
+  #p2{
+    font-size:15px;
+    color: rgb(180, 176, 176);
+    margin-bottom:10px ;
+    text-align: center;
+  }
+  #img{
+    border-radius:10px; 
+    margin-bottom:50px;
+  }
